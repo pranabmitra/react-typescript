@@ -1,0 +1,27 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "Simple react application with typescript",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack -p",
+    "dev": "webpack-dev-server -d --content-base ./public"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": "pranabmitra",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
